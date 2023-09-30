@@ -1,0 +1,141 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+}
+
+.login {
+  display: flex;
+}
+
+.login-kanan {
+  background-color: #eee;
+  flex: 3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-kanan img {
+  width: 79%;
+}
+
+.login-kiri {
+  background-color: #64ccc5;
+  flex: 2;
+}
+
+.logo {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.login-form {
+  margin: auto;
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 70%;
+  margin-top: 10px;
+  background-color: #fff;
+  border-radius: 7px;
+}
+
+.login-form h2 {
+  margin-bottom: 20px;
+  color: #053b50;
+  font-size: 2rem;
+}
+form input {
+  width: 250px;
+  margin-bottom: 5px;
+  padding: 13px;
+  border-radius: 6px;
+  outline: none;
+  border: none;
+  background-color: #ededed;
+  margin-top: 10px;
+}
+
+.username {
+  position: relative;
+}
+
+.password {
+  margin-top: 10px;
+  position: relative;
+}
+
+.masagge img {
+  background-color: #176b87;
+  padding: 5px;
+  position: absolute;
+  top: 29px;
+  right: 0;
+  border-radius: 6px;
+}
+.lock img {
+  background-color: #176b87;
+  padding: 5px;
+  position: absolute;
+  top: 29px;
+  right: 0;
+  border-radius: 6px;
+}
+
+a {
+  margin-top: 5px;
+  margin-left: 129px;
+  font-size: 14px;
+  color: #000;
+}
+
+.btn-login {
+  padding: 13px;
+  margin-top: 15px;
+  width: 250px;
+  background-color: #053b50;
+  color: #fff;
+  border-radius: 7px;
+  border: none;
+  cursor: pointer;
+}
+
+.atau {
+  display: flex;
+  margin-top: 10px;
+  align-items: center;
+  gap: 40px;
+}
+
+.atau p {
+  color: #b0b0b0;
+}
+
+.garis-kanan {
+  width: 70px;
+  height: 1px;
+  background-color: #b0b0b0;
+}
+.garis-kiri {
+  width: 70px;
+  height: 1px;
+  background-color: #b0b0b0;
+}
+
+.btn-sign {
+  padding: 13px;
+  margin-top: 10px;
+  width: 250px;
+  background-color: #ffff;
+  color: #053b50;
+  border-radius: 7px;
+  cursor: pointer;
+  border: 1px solid #053b50;
+}
